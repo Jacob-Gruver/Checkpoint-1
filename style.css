@@ -1,0 +1,7 @@
+.text-over-image{
+    background-image: url(jokes-img-2.jpg);
+    background-size: cover;
+}
+.cust-font{
+    font-family: 'Anton', sans-serif;
+}
