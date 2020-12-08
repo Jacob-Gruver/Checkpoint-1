@@ -5,3 +5,30 @@
 .cust-font{
     font-family: 'Anton', sans-serif;
 }
+
+
+.cover-spill{
+    position: relative;
+    top: 25vh;
+    background-size: cover;
+}
+
+.cover-padding{
+    padding-top: 15vh;
+}
+
+@media screen and (max-width: 320px){
+    
+    .cover-spill{
+        position: absolute;
+        top: auto;
+        background-size: 0;
+    }
+
+    .padding-small{
+        padding-top: 45vh;
+    }
+
+
+
+}
